@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <title>Travel</title>
+</head>
+
+<body>
+
+    <!---- Header Section Starts ---->
+
+    <header class="header">
+        <a href="" class="logo"><i class="fas fa-hiking"></i><span>T</span>ravel</a>
+
+        <nav class="navbar">
+            <div id="nav-close" class="fas fa-times"></div>
+            <a href="index.html" href="#home ">Home</a>
+            <a href="index.html" href="#destination">Destination</a>
+            <a href="index.html" href="#gallery">Gallery</a>
+            <a href="index.html" href="#review">Reviews</a>
+            <a href="booking.html">Booking</a>
+            <a href="contact.html">Contact</a>
+        </nav>
+
+        <div class="icons">
+            <div id="menu-btn" class="fas fa-bars"></div>
+            <div id="login-btn" class="fas fa-user"></div>
+            <div id="search-btn" class="fas fa-search"></div>
+        </div>
+
+    </header>
+
+    <div class="register-form">
+
+        <div id="close-login" class="fas fa-times"></div>
+        <form action="">
+            <h1>Login</h1>
+            <input type="email" class="box" placeholder="Enter your email...">
+            <input type="password" class="box" placeholder="Enter your password...">
+            <input type="submit" value="Login" class="btn">
+            <input type="checkbox" id="remember">
+            <label for="remember">remember me</label>
+            <p>Forgot password? <a href="">click here</a></p>
+            <p>Don't have an account? <a href="">register now</a></p>
+        </form>
+    </div>
+
+    <div class="search-form">
+
+        <div id="close-search" class="fas fa-times"></div>
+        <form action="">
+            <input type="search" name="" placeholder="search here..." id="search-box">
+            <label for="search-box" class="fas fa-search"></label>
+        </form>
+    </div>
+    <!---- Header Section Ends ---->
+
+    <!---- Details section starts ---->
+    <section class="product-detail section-p1">
+        <div class="product-image">
+            <img src="image/destination/d1.jpg" width="100%" id="Mainimg" alt="">
+            <div class="small-image-group">
+                <div class="small-col">
+                    <img src="image/destination/d1.jpg" width="100%" class="small-img" alt="">
+                </div>
+                <div class="small-col">
+                    <img src="image/destination/d2.jpg" width="100%" class="small-img" alt="">
+                </div>
+                <div class="small-col">
+                    <img src="image/destination/d3.jpg" width="100%" class="small-img" alt="">
+                </div>
+                <div class="small-col">
+                    <img src="image/destination/d4.jpg" width="100%" class="small-img" alt="">
+                </div>
+            </div>
+        </div>
+        <div class="pro-detail ">
+            <h6>Home / Destination</h6>
+            <h4>India , Paris , Lodon , Sydney</h4>
+            <h2>₹4500-350000</h2>
+            <select>
+                <option>Select destination</option>
+                <option>India</option>
+                <option>Paris</option>
+                <option>London</option>
+                <option>Sydney</option>
+                <option>Switzerland</option>
+            </select>
+            <input type="number" value="1" placeholder="">
+            <button class="normal">Add To Cart</button>
+            <h4>Product Details</h4>
+            <span>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Illo ea suscipit pariatur quibusdam mollitia
+                eligendi, sit ducimus quos magnam! Cum est quibusdam fuga necessitatibus accusantium sit. Suscipit
+                veritatis repellat, molestias, corporis culpa quia quidem earum doloremque hic nulla est eligendi fuga
+                fugiat eveniet porro. Maiores non nobis neque quae praesentium perspiciatis laudantium corporis, minus
+                assumenda. Rem sapiente dolor cumque esse magni pariatur magnam, molestiae, inventore ad vitae quam
+                harum hic numquam enim consectetur excepturi dolores, nobis nam? Animi, tempora iusto?</span>
+        </div>
+    </section>
+
+
+    <section class="product section-p1" id="destination">
+        <div class="container">
+            <div class="destinations">
+                <div class="slides" onclick="window.location.href='details.html';">
+                    <img src="image/destination/d1.jpg" alt="">
+                    <div class="carts">
+                        <a href=""><i class="fas fa-shopping-cart"></i></a>
+                        <a href=""><i class="fas fa-heart"></i></a>
+                        <a href=""><i class="fas fa-share"></i></a>
+                    </div>
+                </div>
+                <h2>India</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima, in.</p>
+                <h4>Price :- ₹4500-15000</h4>
+                <div class="icon">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fa-solid fa-star-half-stroke"></i>
+                </div>
+            </div>
+
+            <div class="destinations">
+                <div class="slides">
+                    <img src="image/destination/d2.jpg" alt="">
+                    <div class="carts">
+                        <a href=""><i class="fas fa-shopping-cart"></i></a>
+                        <a href=""><i class="fas fa-heart"></i></a>
+                        <a href=""><i class="fas fa-share"></i></a>
+                    </div>
+                </div>
+                <h2>France</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima, in.</p>
+                <h4>Price :- ₹150000-250000</h4>
+                <div class="icon">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+            </div>
+
+            <div class="destinations">
+                <div class="slides">
+                    <img src="image/destination/d3.jpg" alt="">
+                    <div class="carts">
+                        <a href=""><i class="fas fa-shopping-cart"></i></a>
+                        <a href=""><i class="fas fa-heart"></i></a>
+                        <a href=""><i class="fas fa-share"></i></a>
+                    </div>
+                </div>
+                <h2>Australia</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima, in.</p>
+                <h4>Price :- ₹170000-300000</h4>
+                <div class="icon">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fa-solid fa-star-half-stroke"></i>
+                </div>
+            </div>
+
+            <div class="destinations">
+                <div class="slides">
+                    <img src="image/destination/d4.jpg" alt="">
+                    <div class="carts">
+                        <a href=""><i class="fas fa-shopping-cart"></i></a>
+                        <a href=""><i class="fas fa-heart"></i></a>
+                        <a href=""><i class="fas fa-share"></i></a>
+                    </div>
+                </div>
+                <div class="des">
+                    <h2>London</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima, in.</p>
+                    <h4>Price :- ₹150000-250000</h4>
+                    <div class="icon">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!---- Details section Ends---->
+
+    <!---- newletter section starts ---->
+
+    <section class="newsletter section-p1">
+        <div class="news">
+            <h4>Sign Up for Newsletter</h4>
+            <p>Get E-mail updates about our tours and <span>special offers</span></p>
+        </div>
+        <div class="form">
+            <input type="text" placeholder="your email">
+            <button class="normal">Sign Up</button>
+        </div>
+    </section>
+
+    <!---- newletter section ends ---->
+
+
+    <!---- footer card Section starts ---->
+
+    <section class="footer-card section-p1">
+        <div class="section">
+        <div class="logo"><i class="fas fa-hiking"></i><span>T</span>RAVEL</div>
+
+        <div class="location">
+            <h3>Contact</h3>
+            <div class="sub-location">
+                <a href="#"><i class="fas fa-globe"></i>Workplace: <span>Travel pvt.ltd , Gujarat </span></a>
+
+            </div>
+            <div class="sub-location">
+                <a href="#"><i class="fas fa-location"></i>Address: <span>ABC Building, Xyz Road. Gujarat</span></a>
+
+            </div>
+            <div class="sub-location">
+                <a href="#"><i class="fas fa-phone"></i>Contact: <span>+91 000-000-0000</span></a>
+
+            </div>
+            <div class="sub-location">
+                <a href="#"><i class="fas fa-envelope"></i>E-mail: <span>info.travel@outlook.com</span></a>
+
+            </div>
+        </div>
+
+        <div class="social">
+            <h3>Follow Us</h3>
+            <a href="#"><i class="fab fa-facebook-f"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+            <a href="#"><i class="fa-brands fa-youtube"></i></a>
+        </div>
+
+        <div class="location">
+            <h3>About Us</h3>
+            <div class="sub-location">
+                <a href="#">About Us</a>
+            </div>   
+            <div class="sub-location">
+                <a href="#">Privacy Policy</a>
+            </div>
+            <div class="sub-location">
+                <a href="#">Terms and Conditions</a>
+            </div>
+            <div class="sub-location">
+                <a href="#">Refund Policy</a>
+            </div>
+            <div class="sub-location">
+                <a href="#contact">Contact us</a>
+            </div>
+        </div>
+
+        <div class="location">
+            <h3>My account</h3>
+            <div class="sub-location">
+                <a href="#">Login</a>
+            </div>
+            <div class="sub-location">
+                <a href="#">Register</a>
+            </div>
+            <div class="sub-location">
+                <a href="#">My wishlist</a>
+            </div>
+            <div class="sub-location">
+                <a href="#">My Bookings</a>
+            </div>
+            <div class="sub-location">
+                <a href="#">Help</a>
+            </div>
+        </div>
+
+        <div class="location">
+            <p>Secured Payment Gateway</p>
+            <div class="sub-location">
+                <img src="image/pay.png" alt="">
+            </div>
+        </div>
+    </div>
+    </section>
+
+    <!---- footer card Section ends ---->
+
+
+    <!---- footer Section starts ---->
+
+    <footer class="footer">&copy copyright <i class="fas fa-hiking"></i><span>T</span>RAVEL , All rights reserved.
+    </footer>
+
+    <!---- footer Section ends ---->
+
+    <script src="index.js"></script>
+</body>
+
+</html>
